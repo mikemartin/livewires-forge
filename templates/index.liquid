@@ -1,0 +1,73 @@
+{% block content %}
+{% model "services.json" %}
+
+<div class="row subtle">
+  <section class="text-center">
+    <div class="hgroup">
+      <h2>A job worth doing is worth doing well</h2>
+      <h1>Crafted Websites for Intelligent Business</h1>
+    </div>
+    <p><a href="#" class="button button--white">Start Your Project With Forge and Smith</a></p>
+    <figure>
+    {{ "1200x600" | placeholder:'0b2325','FFFFFF' | image_tag }}
+    </figure>
+  </section>
+</div>
+<div class="row nbp">
+  <section class="content text-center">
+  <p class="lead">We are a boutique web agency comprised of web craftsmen who instil every project with attention to detail, deep experience and focused passion. A job worth doing is worth doing right is our motto and we tackle it with fierce determination and uncompromising commitment to quality. Word.</p>
+  </section>
+</div>
+
+<div class="row content block-two-up">
+  {% for service in model.services %}
+    <section>
+      <h2>{{ service.title }}</h3>
+      <p>{{ service.summary }}</p>
+    </section>
+  {% endfor %}
+</div>
+<div class="reverse">
+  <div class="row">
+    <section class="content text-center">
+      <div class="hgroup">
+        <h2>We Sweat the Details.</h2>
+        <h1>Here’s How We Work:</h1>
+      </div>
+      <p class="lead">All craft begins with a solid process informed by experience, knowledge and passion. Our agile &amp; responsive process is not a series of “ta-da” moments and big reveals, but an ongoing discussion from beginning to the end, focused on getting to know you and your business as well as your user’s needs. Every step of our process is thoroughly instilled with craft and attention to detail with the sole focus of doing it right.</p>
+      <p class="more"><a href="#">Learn More About Our Vancouver Web Design Company ></a></p>
+    </section>
+  </div>
+  <hr class="rule--light"/>
+  <div class="row content">
+    <div class="hgroup text-center">
+        <h2>We Know What We're Talking About.</h2>
+        <h1>Recently From The Blog:</h1>
+    </div>
+    <section class="split-content">
+      <h3><a href>It Is Possible to Ditch Your Ecommerce Software</a></h3>
+      <p>If you’re not happy with your ecommerce software, imagine how your customers feel. As ecommerce website managers begin to see the limitless potential of a custom-built and WordPress-enhanced web system, they want equally limitless potential from their ecommerce software. We highly recommend WooCommerce, but potential clients tell us that they...</p>
+      <p class="more"><a href="#">Keep Reading ></a></p>
+    </section>
+    <section class="split-content">
+      <h3><a href>It Is Possible to Ditch Your Ecommerce Software</a></h3>
+      <p>If you’re not happy with your ecommerce software, imagine how your customers feel. As ecommerce website managers begin to see the limitless potential of a custom-built and WordPress-enhanced web system, they want equally limitless potential from their ecommerce software. We highly recommend WooCommerce, but potential clients tell us that they...</p>
+      <p class="more"><a href="#">Keep Reading ></a></p>
+    </section>
+  </div>
+</div>
+
+<div class="row subtle content">
+  <section class="split-content">
+    <h2>Let’s Partner</h2>
+    <p>We work with you to take your vision & turn it into a crafted website your clients will thank you for. It’s what we live to do.</p>
+    <p><a href class="button button--black">Work Together</a></p>
+  </section>
+
+  <section class="split-content">
+    <h2>Let's Get Your Project Started</h2>
+    <p>We instill our love of craft into everything we do. No detail is too small. Together, we’ll get your business where it needs to go.</p>
+    <p><a href class="button button--black">Get a Quote</a></p>
+  </section>
+</div>
+{% endblock %}

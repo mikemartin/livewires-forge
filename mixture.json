@@ -1,0 +1,33 @@
+{
+  "autoPrefixer": {
+    "active": true,
+    "browsers": [
+      "last 2 versions",
+      "> 5%"
+    ]
+  },
+  "debug": false,
+  "domain": null,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "source,httpdocs",
+  "preprocessorScriptOutput": "httpdocs/js",
+  "preprocessorStyleOutput": "httpdocs/css",
+  "projectDescription": "A light-weight design framework for prototyping with html & scss.",
+  "projectName": "ForgeandSmith",
+  "publishedId": "13810",
+  "sass": {
+    "lineNumbers": true,
+    "sourceMap": true,
+    "useLibSass": true
+  },
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "sitemap": true,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": false
+}

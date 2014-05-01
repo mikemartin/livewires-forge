@@ -1,0 +1,30 @@
+{% block styles %}
+  {{ "guide.css" | asset_url | stylesheet_tag }}
+{% endblock %}
+{% block page-class %}pg-modules{% endblock %}
+
+{% block header %}
+  {% include "guide/header" %}
+{% endblock %}
+
+{% block content %}
+<header class="row">
+  <h1>Layout modules</h1>
+  <p class="lead">The building blocks of our templates. Here you'll find our major layout modules like site header, site footer, and major layout sections.</p>
+</header>
+
+<section class="row">
+  <h2>Template header</h2>
+  <hr>
+</section>
+{% include "modules/header" %}
+
+<section class="row">
+  <h2>Template footer</h2>
+  <hr>
+</section>
+{% include "modules/footer" %}
+
+<br>
+
+{% endblock %}

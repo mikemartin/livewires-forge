@@ -1,0 +1,74 @@
+// TEXT COLOURS
+
+* {
+  @include selected($background, $accent);
+}
+
+a {
+  &:link,
+  &:visited {
+    color:$blue;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    color:$red;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  > span,
+  > small,
+  > strong {
+    color:$light-text;
+  }
+  a {
+    &:link,
+    &:visited {
+      color: $accent;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+      color:$mid-text;
+    }
+  }
+}
+
+a.disabled {
+  color:$mid-text !important;
+}
+
+.highlight  {
+  background: $accent;
+}
+
+.subtle {
+  a {
+    color:$light-text;
+    &:hover,
+    &:active,
+    &:focus {
+      color:$text;
+    }
+  }
+}
+
+.reverse {
+  a {
+    &:link,
+    &:visited {
+      color: $light-text;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+      color:$accent;
+    }
+  }
+}

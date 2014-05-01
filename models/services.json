@@ -1,0 +1,25 @@
+{
+  "services": [
+    {
+      "title": "UX Design & Content Strategy",
+      "summary": "We bring foundational user experience (UX) design and sound content strategy to every project. A wise man once said, \"Design without strategy is just decoration.\" We agree completely."
+    },
+    {
+      "title": "Custom Web Design",
+      "summary": "Using the innovative Style Tile approach, we'll work with you to bring your brand to the web in a unique and structured way while providing you with creative options. It'll be pretty too."
+    },
+    {
+      "title": "WordPress CMS Development",
+      "summary": "Not only will we build the site so you can manage every aspect of the content yourself, we'll painstakingly craft the Dashboard to make it a cinch for you to use."
+    },
+    { "title": "Future Proof Web Development",
+      "summary": "We work hard to stay on the leading edge of development best practices. HTML5, grid systems, page load optimization, script minimizing, and more. It is as impressive as it sounds."
+    },
+    { "title": "Responsive Web Design",
+      "summary": "It's not just a buzz word or something fancy. It's about accessibility and that's important. The easier it is for your users to get to your content, the better your site will convert."
+    },
+    { "title": "Search Engine Optimization",
+      "summary": "What's the point of building a new website if no one sees it? We'll integrate your shiny new website with keywords and Google magic to super charge your search results."
+    }
+  ]
+}

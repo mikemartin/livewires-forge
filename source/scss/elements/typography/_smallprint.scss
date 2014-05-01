@@ -1,0 +1,11 @@
+// SMALL TEXT
+
+.small,
+.smallprint,
+.milli{
+  @include font-size(14, 24);
+}
+small,
+.micro {
+
+}
