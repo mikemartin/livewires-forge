@@ -11,3 +11,35 @@
 .nbp {
   padding-bottom: 0;
 }
+
+// Layout sections
+//==============================================================================
+.horizontal-nav {
+  padding-top: 0;
+  ul {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s linear;
+
+    &.opened {
+      max-height: 2000px;
+    }
+  }
+  a {
+    @include font-size(14, 14);
+  }
+}
+
+
+@media only screen and (min-width: $screenSmall) {
+  .horizontal-nav {
+    clear: both;
+    .trigger {
+      display: none;
+    }
+    ul {
+      max-height: none;
+    }
+  }
+
+}
