@@ -33,7 +33,7 @@
     {% for member in model.team %}
       <section class="split-content text-center">
         <div class="hgroup">
-          {{ "300x200" | placeholder | image_tag }}
+          {{ "300x200" | placeholder:'EEEEEE' | image_tag }}
 
           <h3>{{ member.name }}</h3>
           <h4>{{ member.title }}</h4>
@@ -61,7 +61,7 @@
     <h1>What We Support</h1>
     <hr/>
     {% for i in (1..5) %}
-      {{ "250x100" | placeholder | image_tag }}
+      {{ "250x100" | placeholder:'EEEEEE' | image_tag }}
     {% endfor %}
   </section>
 <section class="row" id="contact">
