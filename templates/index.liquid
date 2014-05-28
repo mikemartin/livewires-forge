@@ -9,7 +9,7 @@
     </div>
     <p><a href="#" class="button button--white">Start Your Project With Forge and Smith</a></p>
     <figure>
-    {{ "1200x600" | placeholder:'0b2325','FFFFFF' | image_tag }}
+    {{ "1200x600" | placeholder | image_tag }}
     </figure>
   </section>
 </div>
@@ -19,9 +19,9 @@
   </section>
 </div>
 
-<div class="row content block-two-up">
-  {% for service in model.services %}
-    <section>
+<div class="row content">
+  {% for service in model.services limit:3 %}
+    <section class="three-up">
       <h2>{{ service.title }}</h3>
       <p>{{ service.summary }}</p>
     </section>
@@ -40,7 +40,7 @@
 
   </section>
   <section class="secondary-content pull-left">
-    {{ "1200x600" | placeholder:'0b2325','FFFFFF' | image_tag }}
+    {{ "1200x600" | placeholder | image_tag }}
   </section>
 </div>
 
@@ -51,7 +51,7 @@
     <p>We work with you to take your vision & turn it into a crafted website your clients will thank you for. It’s what we live to do.</p>
     <div class="row row--full">
       {% for i in (1..4) %}
-        <section class="split-content">{{ "360x180" | placeholder:'0b2325','FFFFFF' | image_tag }}</section>
+        <section class="split-content">{{ "360x180" | placeholder | image_tag }}</section>
       {% endfor %}
     </div>
   </section>
@@ -61,7 +61,7 @@
     <p>We instill our love of craft into everything we do. No detail is too small. Together, we’ll get your business where it needs to go.</p>
     <div class="row row--full">
       {% for i in (1..4) %}
-        <section class="split-content">{{ "360x180" | placeholder:'0b2325','FFFFFF' | image_tag }}</section>
+        <section class="split-content">{{ "360x180" | placeholder | image_tag }}</section>
       {% endfor %}
     </div>
   </section>

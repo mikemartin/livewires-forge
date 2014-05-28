@@ -1,0 +1,80 @@
+{
+  "projects": [
+    {
+      "title": "Country Kids",
+      "summary": "This luxury family holiday resort in the south of France needed a website redesign that offered a conversion-focused user experience to increase online bookings by 400%."
+    },
+    {
+      "title": "Boutique Villas",
+      "summary": "This Mexico travel consultancy needed a website redesign to feature luxury home properties in ways that urged more visitors to make reservations with Boutique Villas."
+    },
+    { "title": "Jack Hirose Resources",
+      "summary": "This mental health workshop clearinghouse is membership driven, and the company wanted to offer advanced features to its member therapists, clinics and workshop hosts."
+    },
+    {
+      "title": "BCCA Hire Guide",
+      "summary": "British Columbia Construction Association (BCAA) needed a new way to reach BC’s construction employers, attract a new labour force and build public interest online."
+    },
+    { "title": "Overlander Sports",
+      "summary": "This retail business needed to showcase sporting goods products, prices and availability online. Plus feature in-store promotions to entice local customers to shop Overlander."
+    },
+    { "title": "Fluxwerx",
+      "summary": "This new high-end LED lighting business needed a website to showcase products that met unique lighting requirements of interior commercial and institutional spaces."
+    },
+    { "title": "Wildlife Rescue Association of BC",
+      "summary": "Wildlife Rescue Association of BC (WRA) rehabilitates and protects BC wildlife. The organization needed a responsive website that was easy to view and easy to update."
+    },
+    { "title": "Canadian Stone",
+      "summary": "Crisis Intervention and Suicide Prevention Centre of BC is a help hotline that needed a responsive website. Plus they needed to rebuild online chat for mobile devices."
+    },
+    { 
+      "title": "JJ Bean Coffee Roasters",
+      "summary": "JJ Bean’s digital marketing team didn’t have the best way to manage website content. They needed a responsive website with a stable, easy-to-use content management system."
+    },
+    {
+      "title": "Ashton College",
+      "summary": "Ashton College needed to bring more potential students to their vocational course offerings online. Plus they wanted a better way to share the latest news and information to current students."
+    },
+    {
+      "title": "Follow the UX Leader",
+      "summary": "Follow the UX Leader—the user experience training company—is a workshop brand that needed a responsive website. Plus a custom workshop registration system."
+    },
+    {
+      "title": "Busby Metals",
+      "summary": "Busby Metals had the world’s largest inventory of copper alloys for aerospace, oil and gas. The business needed a responsive website with the ability to provide quotes."
+    },
+    { "title": "Care to Change",
+      "summary": "United Way’s Care to Change video competition needed a responsive website, one that allows for content changes during each phase of the annual competition cycle."
+    },
+    { "title": "Erickson College",
+      "summary": "Erickson College needed to turn its own creative concepts into a robust, dynamic and interactive online presence that would appeal to potential students around the world."
+    },
+    { "title": "Longball",
+      "summary": "Longball is a Canada-based clothing retailer that wanted a web presence that better reflected its brick-and-mortar store. The business needed a responsive ecommerce website."
+    },
+    { "title": "Healthkey",
+      "summary": "HealthKey offers natural health product education for physicians. The business needed a website where doctors could access courses, discussions and submissions online."
+    },
+    { "title": "Olympics Canada",
+      "summary": "Olympics Canada needed a better way to handle big data. The website administrators wanted to be able to easily maintain on-page content without complex workarounds."
+    },
+    { "title": "Foncie’s Corner",
+      "summary": "Knowledge Network’s Foncie’s Corner needed a responsive website that encouraged viewers to share portraits of Foncie Pulice’s critically-acclaimed street photography."
+    },
+    { "title": "Omicron",
+      "summary": "Omicron approached Industrial Brand and web development partner Forge and Smith to build a flexible image-focused website for the building design and development firm."
+    },
+    { "title": "Francl Architecture",
+      "summary": "Toronto-based search marketers needed a responsive website that included video backgrounds and rich content. We created a site that loaded quickly and converted well."
+    },
+    { "title": "Powered by Search",
+      "summary": "Francl Architecture’s web team wanted to find a highly visual way to present Francl Architecture to clients without obtrusive navigation. We built a sleek responsive site."
+    },
+    { "title": "Pardon Services Canada",
+      "summary": "Pardon Services Canada needed to rebuild its checkout system to be more responsive and respectful of user data, especially since users had to share highly personal details."
+    },
+    { "title": "Portico Design",
+      "summary": "The interior design firm needed a responsive website with a content management system that would enable staff to add portfolio pieces, news stories and team bios."
+    }
+  ]
+}

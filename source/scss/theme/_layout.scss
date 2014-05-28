@@ -10,7 +10,7 @@ body {
 .reverse {
   @include font-smoothing(on);
   background:$text;
-  color:$accent;
+  color:$background;
 }
 
 // Subtly highlighted section

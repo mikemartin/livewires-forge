@@ -12,6 +12,18 @@
     "url": "/404"
   },
   {
+    "directory": false,
+    "key": "about",
+    "name": "About",
+    "url": "/about"
+  },
+  {
+    "directory": false,
+    "key": "contact",
+    "name": "Contact",
+    "url": "/contact"
+  },
+  {
     "children": [
       {
         "directory": false,
@@ -112,5 +124,85 @@
     "key": "guide",
     "name": "Guide",
     "url": "/guide"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "archive",
+        "name": "Archive",
+        "url": "/journal/archive"
+      },
+      {
+        "directory": false,
+        "key": "detail",
+        "name": "Detail",
+        "url": "/journal/detail"
+      },
+      {
+        "directory": false,
+        "key": "index",
+        "name": "Index",
+        "url": "/journal/index"
+      }
+    ],
+    "directory": true,
+    "key": "journal",
+    "name": "Journal",
+    "url": "/journal"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "index",
+        "name": "Index",
+        "url": "/process/index"
+      }
+    ],
+    "directory": true,
+    "key": "process",
+    "name": "Process",
+    "url": "/process"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "detail",
+        "name": "Detail",
+        "url": "/services/detail"
+      },
+      {
+        "directory": false,
+        "key": "index",
+        "name": "Index",
+        "url": "/services/index"
+      }
+    ],
+    "directory": true,
+    "key": "services",
+    "name": "Services",
+    "url": "/services"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "detail",
+        "name": "Detail",
+        "url": "/work/detail"
+      },
+      {
+        "directory": false,
+        "key": "index",
+        "name": "Index",
+        "url": "/work/index"
+      }
+    ],
+    "directory": true,
+    "key": "work",
+    "name": "Work",
+    "url": "/work"
   }
 ]

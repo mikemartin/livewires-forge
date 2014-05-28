@@ -41,36 +41,16 @@ a.button--blue {
   }
 }
 
-.button--white,
-a.button--white {
-  background:$background;
-  &:link {
-    color: $text;
-  }
-  &:hover {
-    color: $blue;
-  }
-  &:active,
-  &:focus {
-    background: $text;
-    color: $background;
-  }
-}
-
-.button--black,
-a.button--black {
-  background:$text;
+.button--grey,
+a.button--grey {
+  background:$mid-text;
   color: $background;
-  &:hover {
-    color: $blue;
-  }
+
   &:active,
   &:focus {
-    background: $background;
-    color: $text;
+    background-color: $text;
   }
 }
-
 
 // Disabled button styles
 a.button--disabled,

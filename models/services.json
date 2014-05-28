@@ -1,25 +1,34 @@
 {
   "services": [
     {
+      "title": "WordPress CMS Development",
+      "summary": "WordPress makes it possible for us to build your site and equip your team to manage content. Empowering, right? Something we love most — and we know you will, too — is the intuitive WordPress dashboard."
+    },
+    {
       "title": "UX Design & Content Strategy",
-      "summary": "We bring foundational user experience (UX) design and sound content strategy to every project. A wise man once said, \"Design without strategy is just decoration.\" We agree completely."
+      "summary": "We bring foundational UX design and sound content strategy to every project. Because, afterall, as Jeffrey Zeldman said, “Design without content is decoration.”"
+    },
+    { "title": "Future-Friendly Web Development",
+      "summary": "We work hard to stay on the leading edge of development best practices. HTML5, grid systems, page load optimization, script minimizing, and more. Yes, it is as impressive as it sounds."
     },
     {
       "title": "Custom Web Design",
-      "summary": "Using the innovative Style Tile approach, we'll work with you to bring your brand to the web in a unique and structured way while providing you with creative options. It'll be pretty too."
-    },
-    {
-      "title": "WordPress CMS Development",
-      "summary": "Not only will we build the site so you can manage every aspect of the content yourself, we'll painstakingly craft the Dashboard to make it a cinch for you to use."
-    },
-    { "title": "Future Proof Web Development",
-      "summary": "We work hard to stay on the leading edge of development best practices. HTML5, grid systems, page load optimization, script minimizing, and more. It is as impressive as it sounds."
+      "summary": "We’ll work with Style Tiles to bring your brand to the web in a structured way, with loads of creative options."
     },
     { "title": "Responsive Web Design",
-      "summary": "It's not just a buzz word or something fancy. It's about accessibility and that's important. The easier it is for your users to get to your content, the better your site will convert."
+      "summary": "The easier it is for users to get your content how and where they want it, the better your site will perform. In today’s world full of distractions and information overload, you either adapt or get tuned out."
     },
     { "title": "Search Engine Optimization",
-      "summary": "What's the point of building a new website if no one sees it? We'll integrate your shiny new website with keywords and Google magic to super charge your search results."
+      "summary": "We understand the abilities and limitations of search engines so you don’t have to. We’ll build, format and annotate your content in a way that makes sense to search engines. Without SEO, your website will be invisible — and that’s one superpower we want to help you avoid."
+    },
+    { "title": "API Integrations",
+      "summary": "API Integration means applications working together behind the scenes to provide seamless web experiences. And we can create those experiences for your site!"
+    },
+    { "title": "CRM Integrations",
+      "summary": "We can integrate your website with your CRM of choice to automatically collect valuable customer data."
+    },
+    { "title": "Marketing Automation",
+      "summary": "Marketing automation treats customers like real people and uses data to understand customer needs and wants. It offers information they need, when and where they need it to make decisions they’ll feel good about."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{% block content %}
+{% model "projects.json" %}
+
+<section class="row content">
+  <h1>Our Work</h1>
+    <p>Here is some body text. It will look like grey blocks when the Live Wires styles are applied. We do this so that you can use real content to get close size approximations of your content blocks without letting your team or clients get distracted by the actaul text.</p>
+
+    <p>This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage.</p>
+
+    {% for project in model.projects %}
+      <section class="split-content">
+        <h3><a href="/work/detail">{{ project.title }}</a></h3>
+        <p>{{ project.summary }}</p>
+      </section>
+    {% endfor %}
+</section>
+
+{% endblock %}
+
+

@@ -2,12 +2,27 @@
 //   Default Colours
 //   ========================================================================== */
 
-$background: #FFF;
-$dark-background: #37b5c4;
-$text: #0b2325;
+$background: #FFFFFF;
+$dark-background: #DDDDDD;
+$text: #333333;
 $mid-text: #666666;
-$light-text: #FAFAFA;
+$light-text: #AAAAAA;
 $red: #d13731;
+$blue: #44b3e1;
+
+$accent: $red; //Primary accent color
+
+
+//* =============================================================================
+//   Forge Colours
+//   ========================================================================== */
+
+// $background: #FFF;
+//$dark-background: #37b5c4;
+// $text: #0b2325;
+// $mid-text: #666666;
+// $light-text: #FAFAFA;
+// $red: #d13731;
 $blue: #37b5c4;
 
 $accent: $blue; //Primary accent color

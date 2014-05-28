@@ -1,0 +1,66 @@
+{
+  "team": [
+    {
+      "name": "Shawn Johnston",
+      "title": "Principal",
+      "summary": "A 16 year survivor of the design industry, Shawn is the founder of Forge and Smith as well as the CSS, graphic design & UX strategy lead on all projects. He’s also the founder and organizer of the Interlink Conference, a father of two, a wannabe ninja and a burgeoning guitar god.",
+      "twitter": "shawnjohnston"
+    },
+    {
+      "name": "Abe Friesen",
+      "title": "Operations Manager",
+      "summary": "The beating heart of Forge and Smith, Abe is the Operations Manager. Almost nothing makes its way through Forge and Smith without feeling the affects of his infectious humour and wit. When he’s not getting things done for our clients he’s smoking meat, brewing beer or dreaming new nicknames for his co-workers.",
+      "twitter": "Rangataang"
+    },
+    {
+      "name": "Flynn O’Connor",
+      "title": "Senior Lead Developer",
+      "summary": "A consummate problem solver, Flynn is our Senior Lead Developer. From convoluted Loops and custom fields to jQuery wizardry and fluid grids, there’s very little he can’t figure out given enough time and determination. When he’s not taming WordPress at Forge and Smith he’s at a poker table or organizing his once a month coding free-for-all, Saturhack.",
+      "twitter": "thoronas"
+    },
+    {
+      "name": "Maxine Giannelli",
+      "title": "Marketing Manager",
+      "summary": "Quae vero auctorem tractata ab fiducia dicuntur. Quo usque tandem abutere, Catilina, patientia nostra Morbi fringilla convallis sapien, id pulvinar odio volutpat."
+    },
+    {
+      "name": "Tony Garcha",
+      "title": "Project Coordinator",
+      "summary": "Quae vero auctorem tractata ab fiducia dicuntur. Quo usque tandem abutere, Catilina, patientia nostra Morbi fringilla convallis sapien, id pulvinar odio volutpat."
+    },
+    {
+      "name": "Mike Martin",
+      "title": "UX Designer",
+      "summary": "Raised in southern Newfoundland, Mike is the user experience designer at Forge and Smith. A designer/developer for the last 15 years, he prides himself on creating sites that get out of their own way and let the content shine. Outside the office, he uses these same skills to help musicians unsuccessfully make it big. While he’d love to ride his unicycle to work every day, he usually takes his two-wheeler to keep up with the traffic.",
+      "twitter": "MikeMartin604"
+    },
+    { 
+      "name": "Matt Stobo",
+      "title": "Web Designer",
+      "summary": "The newest member of the team, Matt moved recently from Ottawa to bring his artistic talent to Forge and Smith. When not in the office Matt produces artwork for clothing, skateboards and print. He also likes to spend as much time as possible in the mountains camping, hiking, skiing. Similar to others at Forge and Smith, Matt also spends a fair amount of time playing his guitar, bass and banjos."
+    },
+    { "name": "Andrew Baxter",
+      "title": "Full Stack Developer",
+      "summary": "Hailing from Nova Scotia and a fine bearded fellow, Andrew is our go-to full spectrum developer. When not building WordPress sites, he’s likely strumming one of his guitars or plotting office pranks.",
+      "twitter": "Toughbax"
+    },
+    { "name": "Alec Morrison",
+      "title": "Lead CSS Developer",
+      "summary": "Recently returned to the Great White North and armed with a delightful UK accent, Alec is our Lead CSS Developer. When he’s not taming SASS or wrestling with browsers, he’s strumming his guitar, skiing or pursuing his fascination with hedgehogs. He’s also the tallest developer you’re likely to meet.",
+      "twitter": "alphaalec"
+    },
+    { "name": "Jon Campbell",
+      "title": "Full Stack Developer",
+      "summary": "BC born and bred and hailing from tiny Gibsons, Jon is the office problem solver and all-around development floater. When he’s not squashing bugs and tweaking tweaks, he’s growing his tiny Internet celebrity status, playing the non-boring sports, and spending time with his wife.",
+      "twitter": "joncampbell"
+    },
+    { "name": "Troy Kelly",
+      "title": "CSS Developer",
+      "summary": "Quae vero auctorem tractata ab fiducia dicuntur. Quo usque tandem abutere, Catilina, patientia nostra Morbi fringilla convallis sapien, id pulvinar odio volutpat."
+    },
+    { "name": "Alan Chen",
+      "title": "CSS Developer",
+      "summary": "Quae vero auctorem tractata ab fiducia dicuntur. Quo usque tandem abutere, Catilina, patientia nostra Morbi fringilla convallis sapien, id pulvinar odio volutpat."
+    }
+  ]
+}

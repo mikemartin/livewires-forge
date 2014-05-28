@@ -48,27 +48,3 @@ a.disabled {
   background: $accent;
 }
 
-.subtle {
-  a {
-    color:$light-text;
-    &:hover,
-    &:active,
-    &:focus {
-      color:$text;
-    }
-  }
-}
-
-.reverse {
-  a {
-    &:link,
-    &:visited {
-      color: $light-text;
-    }
-    &:hover,
-    &:active,
-    &:focus {
-      color:$accent;
-    }
-  }
-}

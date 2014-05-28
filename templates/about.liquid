@@ -1,0 +1,123 @@
+{% block header %}
+  {% include "modules/header" %}
+  <nav class="horizontal-nav horizontal-nav--about text-center row">
+    <p class="trigger"><a href="#sections" class="js-reveal">Sections</a></p>
+    <ul class="collapse" id="sections">
+      <li><a href="#team">Team</a></li>
+      <li><a href="#forgefriday">Forge Friday</a></li>
+      <li><a href="#support">What We Support</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+{% endblock %}
+
+{% block content %}
+{% model "team.json" %}
+
+<main class="main">
+  <header class="row text-center">
+    <h1>Get To Know Us</h1>
+    <div class="content">
+      <p class="lead">Here is some body text. It will look like grey blocks when the Live Wires styles are applied. We do this so that you can use real content to get close size approximations of your content blocks without letting your team or clients get distracted by the actaul text.</p>
+
+      <p>This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage.</p>
+  </header>
+  <section class="row content subtle" id="team">
+    <h1 class="text-center">The Team</h1>
+    <hr/>
+     <p class="lead">Here is some body text. It will look like grey blocks when the Live Wires styles are applied. We do this so that you can use real content to get close size approximations of your content blocks without letting your team or clients get distracted by the actaul text.</p>
+     <br/>
+    <div class="content">
+
+
+    {% for member in model.team %}
+      <section class="split-content text-center">
+        <div class="hgroup">
+          {{ "300x200" | placeholder | image_tag }}
+
+          <h3>{{ member.name }}</h3>
+          <h4>{{ member.title }}</h4>
+        </div>
+        <p>{{ member.summary }}</p>
+      </section>
+    {% endfor %}
+
+    </div>
+  </section>
+  <section class="row content" id="forgefriday">
+    <h1 class="text-center">Forge Friday</h1>
+    <hr/>
+    <p>This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage. This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage. This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage.</p>
+
+    <div class="split-content">
+      {{ "600x400" | placeholder | image_tag }}
+    </div>
+    <div class="split-content">
+      {{ "600x400" | placeholder | image_tag }}
+    </div>
+
+  </section>
+  <section class="row subtle text-center" id="attend">
+    <h1>What We Support</h1>
+    <hr/>
+    {% for i in (1..5) %}
+      {{ "250x100" | placeholder | image_tag }}
+    {% endfor %}
+  </section>
+<section class="row" id="contact">
+  <h1 class="text-center">Contact</h1>
+
+  <div class="content text-center">
+    <p>We’re currently available for projects of all types. Please fill out the form below with as much detail as you can provide and expect a reply within one business day. We look forward to starting this conversation with you!</p>
+  </div>
+
+  <hr />
+
+  <form action="../index.html" class="primary-content">
+    <fieldset>
+      <div class="field">
+        <label for="contact-name">Name</label>
+        <input type="text" name="contact-name" value="" placeholder="eg) Joanna Smith" class="text-input" />
+      </div>
+      <div class="field">
+        <label for="contact-email">Email address</label>
+        <input type="email" name="contact-email" value="" placeholder="eg) joanna@example.com" class="text-input" />
+      </div>
+      <div class="field">
+        <label for="contact-message">Message</label>
+        <textarea name="contact-message" class="text-input"></textarea>
+      </div>
+      <div class="field">
+        <button type="submit">Send</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <aside class="secondary-content">
+    <div class="callout">
+      <div class="vcard">
+        <p class="adr">
+          <strong class="org">Forge and Smith</strong>
+          <span class="street-address">#101 - 620 Royal Ave.</span>
+          <span class="locality">New Westminster</span>, <span class="region">BC</span> <span class="postal-code">V3M 1J2</span>
+          <span class="country-name">Canada</span>
+        </p>
+        <p class="tel">
+          <span class="type">Phone</span>
+          <a href="tel:+18885555555" class="value" title="+18885555555">(778) 397-0984</a>
+        </p>
+        <p class="mobile">
+          <span class="type">Mobile</span>
+          <a href="tel:+18885555555" class="value" title="+18885555555">(778) 882-9172</a>
+        </p>
+        <p class="email">
+          <span class="type">Email</span>
+          <a href="mailto:name@example.com" class="value" title="name@example.com">shawn@forgeandsmith.com</a>
+        </p>
+      </div>
+    </div>
+  </aside>
+</section>
+</main>
+
+{% endblock %}

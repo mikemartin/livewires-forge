@@ -1,0 +1,40 @@
+{% block content %}
+{% model "projects.json" %}
+
+<section class="row content">
+  <h1>WordPress CMS Development</h1>
+  <p>Here is some body text. It will look like grey blocks when the Live Wires styles are applied. We do this so that you can use real content to get close size approximations of your content blocks without letting your team or clients get distracted by the actaul text.</p>
+
+  <p>This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage.</p>
+
+  <aside class="callout">
+      <div class="content reverse">
+        <p>We needed a site that could streamline all of our information to the user, making it visibly appealing but easy to use–while still maintaining our brand recognition. At the same time the site also had to be easy to update. We also required an online store and a private ordering system for our cafes to order stock daily. Forge not only satisfied every single one of these needs, they completely exceeded them and delivered more than we thought possible. The end result? A beautiful website that completely captures who we are as a company, allowing us to communicate every facet of JJ Bean while making the information easy to find for our customers. Thank you, Forge &amp; Smith!</p>
+        <small class="source">Shannon Wood, Marketing Manage</small>
+      </div>
+    </aside>
+</section>
+
+<div class="row">
+  <div class="split-content">
+    <p><a href="index/">View all Services</a></p>
+  </div>
+  <div class="split-content text-right">
+      <a href="" class="prev">«&nbsp;Prev</a>
+      <a href="" class="next">Next&nbsp;»</a>
+  </div>
+</div>
+
+<section class="row subtle content">
+	<h2>Related Projects</h2>
+  {% for project in model.projects limit: 3 %}
+    <article class="three-up">
+      <h3><a href="/work/detail">{{ project.title }}</a></h3>
+      <p>{{ project.summary }}</p>
+    </article>
+  {% endfor %}
+</section>
+
+
+
+{% endblock %}

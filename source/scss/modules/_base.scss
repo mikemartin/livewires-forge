@@ -47,11 +47,6 @@ body {
   padding-right: 0;
 }
 
-.row--full {
-  padding: 0 !important;
-}
-
-
 @media only screen and (min-width: $screenSmall) {
   .row,
   .row--mobile-full { // Bring edge-to-edge mobile views inline with the rest of the layout

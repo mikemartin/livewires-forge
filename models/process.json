@@ -1,0 +1,35 @@
+{
+  "process": [
+    {
+      "title": "Project Kickoff",
+      "summary": "In order for us to plan and build the best website possible for your business, we first need to get to know you. You’re the expert on what you do and who you do it for. Our job is to shape that knowledge and apply it to the web."
+    },
+    {
+      "title": "Architecture and Strategy",
+      "summary": "Based on our kickoff discussions, we’ll assess your existing content and website structure as well as your brand. During this phase we’ll generate a site map to function as our baseline blueprint for the overall structure of you’re site. This allows us to document functionality and establish what you’re site users will need where. Well structured content strategy will form the foundation of the interaction and design systems we’ll be creating."
+    },
+    { "title": "Style Tiles",
+      "summary": "With strategy and planning well under way, we’ll begin exploring ways to bring your brand online by working with colour palettes, typography and textures. By separating aesthetic choices from content or strategic ones, we’re more able to focus on bringing your brand alive online and create the basis for our design systems."
+    },
+    {
+      "title": "Prototyping",
+      "summary": "Using a rock-solid grid based HTML5 system, we’ll begin to build out your website architecture, layout templates and content management. You’ll be able to navigate through your site, interacting with working sliders, menu and forms. This is the best way to vet the plan we’ve developed together for your site and your content. We also include the basic responsive breaking points so you can test drive it on your devices."
+    },
+    {
+      "title": "Web Designs",
+      "summary": "Taking the prototypes and style tiles, we’ll pull together the final creative vision for your website. From home page designs and interior style guide to hover states and typographic styles, we’ll nail down the design systems that will applied throughout the site. This is the step that everything comes together in, and we’ve done our job right, it’ll be exactly what you were hoping for."
+    },
+    { "title": "Responsive Theming",
+      "summary": "Now comes the fun part! Taking the final designs and style guides and using the latest CSS3 techniques, we dress the prototype with the final theme. We use modular techniques to ensure styles are applied globally and systemically, so that your site is flexible and scalable without any developer intervention. We also ensure it’s not only cross browser compatible, but cross device."
+    },
+    { "title": "Population and Training",
+      "summary": "We love supporting and training you and your content managers in the fine art of content management. We take as much care in crafting the Dashboard system as we do crafting the front end of your website. We’ll also migrate your existing blog content if you have it and help you polish your site to a high gloss."
+    },
+    { "title": "Site Launch",
+      "summary": "So now that the content is in and the site has been fully quality assured and tested, we’ll create a launch plan to archive your old site and release your shiny new one to the public. We’ll ensure analytics are in place and that your site is submitted to the appropriate search engines so it’s ready to work for your business."
+    },
+    { "title": "Post Launch Review",
+      "summary": "A website is, in a way, a living thing, constantly growing and needing to evolve. Not only will content change over time, but how your business utilizes will mature and the internet it’s on never stops morphing and leaping forward. Three months after launch we’ll review your analytics and see where we can improve conversion and correct any gaps site usage reveals. Our work is never done!"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{% block content %}
+{% model "services.json" %}
+
+<div class="row">
+  <figure>
+    <img src="http://placehold.it/2000x500" alt="" />
+  </figure>
+
+  <section class="primary-content content">
+    <h1 style="margin-top: 0">JJ Bean</h1>
+    <p>JJ Bean’s digital marketing team didn’t have the best tools to manage their online content, and they needed a more stable and easy-to-use content management system. Most importantly, they needed to be able to update promotions and other time-sensitive content without depending on a developer. JJ Bean asked Forge and Smith to help out.</p>
+    <aside class="callout">
+      <div class="content reverse">
+        <p>We needed a site that could streamline all of our information to the user, making it visibly appealing but easy to use–while still maintaining our brand recognition. At the same time the site also had to be easy to update. We also required an online store and a private ordering system for our cafes to order stock daily. Forge not only satisfied every single one of these needs, they completely exceeded them and delivered more than we thought possible. The end result? A beautiful website that completely captures who we are as a company, allowing us to communicate every facet of JJ Bean while making the information easy to find for our customers. Thank you, Forge &amp; Smith!</p>
+        <small class="source">Shannon Wood, Marketing Manage</small>
+      </div>
+    </aside>
+    <p>We designed a simplified presentation. We developed a WordPress web system with a new Google-integrated café locator. We customized a robust ecommerce backend that enabled seamless management of stock orders and customer orders alike. Our team ultimately developed better ways to add new content on the fly without third-party help.</p>
+    <p>JJ Bean gained more power to drive their own business growth, well beyond the cafés.</p>
+  </section>
+  <aside class="secondary-content">
+    <div class="callout text-right">
+      <p>
+        <a href="http://jjbeancoffee.com/" target="_blank" class="button button--blue">Visit Website</a>
+      </p>
+    </div>
+
+    <div class="callout">
+      <nav class="vertical-nav reverse content">
+        <h3>What We Did</h3>
+        <ul>
+        {% for service in model.services limit: 3 %}
+          <li><a href="/services/detail">{{ service.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </aside>
+</div>
+
+<div class="row">
+  <div class="split-content">
+    <p><a href="index/">View all Projects</a></p>
+  </div>
+  <div class="split-content text-right">
+      <a href="" class="prev">«&nbsp;Prev</a>
+      <a href="" class="next">Next&nbsp;»</a>
+  </div>
+</div>
+
+{% endblock %}
