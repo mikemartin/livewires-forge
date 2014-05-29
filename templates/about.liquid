@@ -17,21 +17,21 @@
 <main class="main">
   <header class="row text-center">
     <h1>Get To Know Us</h1>
-    <div class="content">
+    <div>
       <p class="lead">Here is some body text. It will look like grey blocks when the Live Wires styles are applied. We do this so that you can use real content to get close size approximations of your content blocks without letting your team or clients get distracted by the actaul text.</p>
 
       <p>This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage.</p>
   </header>
-  <section class="row content subtle" id="team">
+  <section class="row subtle" id="team">
     <h1 class="text-center">The Team</h1>
     <hr/>
      <p class="lead">Here is some body text. It will look like grey blocks when the Live Wires styles are applied. We do this so that you can use real content to get close size approximations of your content blocks without letting your team or clients get distracted by the actaul text.</p>
      <br/>
-    <div class="content">
+    <div>
 
 
     {% for member in model.team %}
-      <section class="split-content text-center">
+      <section class="split-content text-center" style="padding: 1em;">
         <div class="hgroup">
           {{ "300x200" | placeholder:'EEEEEE' | image_tag }}
 
@@ -44,7 +44,7 @@
 
     </div>
   </section>
-  <section class="row content" id="forgefriday">
+  <section class="row" id="forgefriday">
     <h1 class="text-center">Forge Friday</h1>
     <hr/>
     <p>This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage. This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage. This is nice becuase you will be working with real content through the entire design and development process without having to reflow text at each stage.</p>
@@ -57,7 +57,7 @@
     </div>
 
   </section>
-  <section class="row subtle text-center" id="attend">
+  <section class="row subtle text-center" id="support">
     <h1>What We Support</h1>
     <hr/>
     {% for i in (1..5) %}
@@ -67,7 +67,7 @@
 <section class="row" id="contact">
   <h1 class="text-center">Contact</h1>
 
-  <div class="content text-center">
+  <div class="text-center">
     <p>We’re currently available for projects of all types. Please fill out the form below with as much detail as you can provide and expect a reply within one business day. We look forward to starting this conversation with you!</p>
   </div>
 
